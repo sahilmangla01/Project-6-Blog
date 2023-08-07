@@ -67,7 +67,7 @@ const LatestArticle = () => {
                                         <div className="TP__firstDescription">
                                       <div className="TPTitle">
                                       <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content"} className="heading">  <div className="TP__firstTitle">{e.title}</div></NavLink>
-                                          <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                          <div className='HomeCompFoot'>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                       </div>
                                             <div className="TP__FirstNumber">1</div>
 
@@ -85,7 +85,7 @@ const LatestArticle = () => {
                                         <div className="TP__description">
                                         <div className="TPTitle second">
                                         <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content"} className="heading">  <div className="TP__title ">{e.title}</div></NavLink>
-                                          <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                          <div className='HomeCompFoot'>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                         </div>
                                         </div>
                                             <div className="TP__numbers">2</div>
@@ -101,7 +101,7 @@ const LatestArticle = () => {
                                         <div className="TP__description">
                                         <div className="TPTitle second">
                                         <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content"} className="heading">  <div className="TP__title ">{e.title}</div></NavLink>
-                                          <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                          <div className='HomeCompFoot'>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                         </div>
                                         </div>
                                             <div className="TP__numbers">3</div>
@@ -117,7 +117,7 @@ const LatestArticle = () => {
                                         <div className="TP__description">
                                         <div className="TPTitle second">
                                         <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content"} className="heading">  <div className="TP__title ">{e.title}</div></NavLink>
-                                          <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                          <div className='HomeCompFoot'>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                         </div>
                                         </div>
                                             <div className="TP__numbers">4</div>
@@ -133,7 +133,7 @@ const LatestArticle = () => {
                                         <div className="TP__description">
                                         <div className="TPTitle second">
                                         <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content"} className="heading">  <div className="TP__title ">{e.title}</div></NavLink>
-                                          <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                          <div className='HomeCompFoot'>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                         </div>
                                         </div>
                                         <div className="TP__numbers">5</div>

@@ -9,7 +9,7 @@ const Header = () => {
       
       <div onClick={()=>Navi('/')} className="Title">
         <span className="the">The </span> 
-        Siren</div>
+        <span className='siren'>Siren</span></div>
       
         </div><hr/>
       

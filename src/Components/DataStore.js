@@ -321,7 +321,7 @@ const DataStore = (props) => {
       id:41,
       cat: 'Hollywood',
       image:"https://imgs.search.brave.com/7fA5OHMtm84HdgzKKA_aBLW92OkfkET9gI_NQcZIOQk/rs:fit:474:326:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vaGlnaG9u/Y2luZW1hYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDQvVGhlLVN1cGVy/LU1hcmlvLUJyb3Mt/TW92aWUtRnVsbC1Q/bG90LVN1bW1hcnkt/TGVha2VkLWFuZC1T/cG9pbGVycy1SZWFk/LUhlcmUuanBnP3c9/MTA4MCZzc2w9MQ",
-      title: "Super Mario Bros. Movie: Photos Of The Cast Voicing The Characters",
+      title: "Super Mario Bros",
       long_description:"Chris Pratt voices the character of Mario in the Super Mario Bros. movie which is released on April 5, 2023. Mario is a happy-go-lucky Italian plumber thats always trying to rescue Princess Peach.The animated Nintendo film has an all-star cast that voices the characters from Anya Taylor-Joy to Jack Black, Seth Rogen, and more. The highly anticipated film brings the characters from the iconic Nintendo video game to life and you will not believe which A-list stars voice the characters. To see who plays who, you can scroll through the gallery to see all of the photos. Anya Taylor-Joy plays the character of Princess Peach, who is always getting captured by Bowser and needs the Mario brothers help. Jack Black plays Bowser, who is your quintessential villain that breathes fire and is always trying to capture Princess Peach.Keegan-Michael Key voices the character of Toad – your friendly little neighborhood helper that is always there to help Mario along the way. Seth Rogen voices Donkey Kong, a tough, run-and-tumble character. Fun fact: the first time Mario ever appeared in a video game was the Donkey Kong game. Kevin Michael Richardson voices Kamek, a small, wise sorcerer thats always up to no good.Fred Armisen plays Cranky Kong, Donkey Kongs grumpy uncle, who used to run a shop in the games where you could buy items."
       ,description:"Chris Pratt voices the character of Mario in the Super Mario Bros. movie which is released on April 5, 2023. "
     }
@@ -393,7 +393,7 @@ const DataStore = (props) => {
       id:50,
       cat: 'Fitness',
       image:"https://images.everydayhealth.com/images/tips-to-help-you-stick-with-exercise-when-managing-type-2-diabetes-alt-722x406.jpg?w=1110",
-      title: "7 Tips to Help You Stick With Exercise When Managing Type 2 Diabetes",
+      title: "7 Tips to Help You to Manage Type 2 Diabetes",
       long_description:"1. Take Baby Steps When Beginning an Exercise Routine If you’re a couch potato who suddenly runs 5 miles on your first day of exercise, you’ll be sore on day two — perhaps with blisters on your feet and ready to throw in the towel 2.2. Choose a Physical Activity You Enjoy Doing.-You’re also more likely to stick with your exercise plan if it’s fun, invigorating, and suits your abilities. 3. Use the Buddy System to Increase Accountability 4. Reward Yourself With Healthy Treats for Breaking a Sweat 5.Formally Schedule Your Sweat Sessions .6. Prep for Your Workouts a Day in Advance. 7. Check Your Blood Sugar Before and After Exercise",
       description:"Take Baby Steps When Beginning an Exercise Routine, Choose a Physical Activity You Enjoy Doing ,Use the Buddy System to Increase Accountability"
     }

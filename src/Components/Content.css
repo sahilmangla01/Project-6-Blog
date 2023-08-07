@@ -20,9 +20,8 @@
     text-align: justify;
     font-size: 22px;
     margin-top: 20px;
-    font-weight: bold;
     line-height: 35px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans', sans-serif;
 }
 .content__profile{
     display: flex;
@@ -147,9 +146,11 @@ h5{
     margin-top: 20px;
 }
 .content__Title{
-    font-size: 20px;
+    font-size: 0.9;
     margin: 10px 0;
    width: 250px;
+   font-weight: bold;
+   font-family: "Montserrat";
 }
 
 .contentHeader{

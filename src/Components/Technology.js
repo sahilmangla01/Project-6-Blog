@@ -71,7 +71,7 @@ const Technology  = ()=>{
                                         <div className="TP__firstDescription">
                                       <div className="TPTitle">
                                       <NavLink state={{id:e.id , title: e.title}} to={"/content"} className="heading">  <div className="TP__firstTitle">{e.title}</div></NavLink>
-                                      <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                      <div className="compfoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                   </div>
                                         <div className="TP__FirstNumber">{e.id -25}</div>
 
@@ -89,7 +89,7 @@ const Technology  = ()=>{
                                         <div className="TP__description">
                                         <div className="TPTitle second">
                                         <NavLink state={{id:e.id , title: e.title}} to={"/content"} className="heading">  <div className="TP__title ">{e.title}</div></NavLink>
-                                      <div style={{fontWeight:"bold" }}>{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                      <div className="compfoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                     </div>
                                     </div>
                                         <div className="TP__numbers">{e.id -25}</div>

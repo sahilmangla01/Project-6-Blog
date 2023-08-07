@@ -19,7 +19,7 @@ const LoadMore = (props) => {
                                    <NavLink state={{id:e.id ,val:0, title: e.title}} className="heading" to={"/content"}> <h2 >  {e.title}</h2> </NavLink>
                                     <div className="TS__description">{e.description}</div>
 
-                                    <div className="compfoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                    <div className="HomeCompFoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                     </div>
                                     
                                 </div>

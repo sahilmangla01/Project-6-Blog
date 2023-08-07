@@ -24,7 +24,7 @@ const RandomComponent = () => {
                                     <div className="random__description">{e.description}</div>
                                      
                     </div>
-                                    <div >{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                    <div className='HomeCompFoot' >{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                 
                                     </div>
                             </div>

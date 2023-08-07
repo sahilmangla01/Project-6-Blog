@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@200&display=swap');
+
 .link__main{
     width: 80vw;
     display: flex;
@@ -11,6 +13,11 @@
     display: flex;
     justify-content: space-around;
     
+}
+.navlink{
+    font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 0.8em;
 }
 
 

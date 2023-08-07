@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@200&family=Open+Sans&display=swap');
 
 .heading{
     text-decoration: none;
@@ -16,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     
 }
@@ -32,8 +31,7 @@
     width: 25vw;
     display: flex;
     flex-direction: column;
-    
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     line-height: 25px;
     ;
@@ -64,6 +62,7 @@
     font-size: 16px;
     line-height: 22px;
     color: gray;
+    
     margin-bottom: 20px;
 }
 .TP__Elements{
@@ -167,8 +166,9 @@
     display: none;
 }
 .compfoot{
+    color: #404040;
+    font-size: .9em;
     font-weight: bold;
-    font-size: 1em;
 }
 
 .load > h3{

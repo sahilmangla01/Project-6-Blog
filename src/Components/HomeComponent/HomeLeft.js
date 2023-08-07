@@ -20,10 +20,10 @@ const HomeLeft = () => {
                                 <div key={e.id} className="TS__Elements">
                                    <NavLink state={{id:e.id,val:0 , title: e.title}} to={"/content" }> <img className="TS__images" src={e.image} alt={e.title}/></NavLink>
                                     <div className="TS__headAndDDescpr">
-                                   <NavLink className="heading" state={{id:e.id,val:0 , title: e.title}} to={"/content"}> <h2 >  {e.title}</h2> </NavLink>
-                                    <div className="TS__description">{e.description}</div>
+                                   <NavLink className="heading" state={{id:e.id,val:0 , title: e.title}} to={"/content"}> <h2 className='leftTitle'>  {e.title}</h2> </NavLink>
+                                    <div className="TS__description left__Desc">{e.description}</div>
 
-                                    <div className="compfoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
+                                    <div className="HomeCompFoot">{e.cat} <span style={{color:'gray'}}> / August 1 ,2023</span></div>
                                     </div>
                                     
                                 </div>
