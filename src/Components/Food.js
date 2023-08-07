@@ -3,6 +3,7 @@ import React from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Header from "../Header";
+import Footer from "./Footer/Footer";
 
 const Food = ()=>{
     const [contextData] = useContext(Store); 
@@ -103,7 +104,7 @@ const Food = ()=>{
    
     </div>
 
-    
+    <Footer/>
     </>
 
 

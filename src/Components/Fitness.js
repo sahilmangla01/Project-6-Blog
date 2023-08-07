@@ -2,6 +2,7 @@ import React,{useContext,useState} from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Header from "../Header";
+import Footer from "./Footer/Footer";
 const Fitness = ()=>{
     const [contextData] = useContext(Store)
    
@@ -104,11 +105,11 @@ const Fitness = ()=>{
 
         
         
-
+                    <Footer/>
     
         </>
         
-        
+    
 
     
         

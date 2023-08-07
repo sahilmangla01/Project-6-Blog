@@ -2,6 +2,7 @@ import React,{useContext,useState} from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Header from "../Header";
+import Footer from "./Footer/Footer";
 
 
 const Hollywood = ()=>{
@@ -105,7 +106,7 @@ const Hollywood = ()=>{
         </div>
 
         
-        
+        <Footer/>
 
         </>
         

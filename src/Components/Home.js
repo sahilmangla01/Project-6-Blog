@@ -5,6 +5,7 @@ import Header from "../Header";
 import RandomComponent from "./HomeComponent/RandomComponent";
 
 import LatestArticle from "./LatestArticle";
+import Footer from "./Footer/Footer";
 
 
 
@@ -46,6 +47,8 @@ const Home = ()=>{
             </div>
        
             </div>
+
+            <Footer/>
         </>
     )
 }

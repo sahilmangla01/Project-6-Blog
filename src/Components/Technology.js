@@ -3,6 +3,7 @@ import { Store } from "./DataStore";
 import "./style.css"
 import { NavLink } from "react-router-dom";
 import Header from "../Header";
+import Footer from "./Footer/Footer";
 const Technology  = ()=>{
     const [contextData] =useContext(Store)
     const [loadMore , setLoadMore] = useState(false)
@@ -106,7 +107,7 @@ const Technology  = ()=>{
        
         </div>
 
-    
+    <Footer/>
     
         </>
 

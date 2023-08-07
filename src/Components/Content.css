@@ -15,6 +15,7 @@
     width: 30vw;
     height: 35vh;
 }
+
 .content__text{
     width: 30vw;
     text-align: justify;
@@ -219,7 +220,11 @@ h5{
 .footer__3Elements{
     background-color: #00000008;
 }
-
+.fticon{
+    width: 12vw;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -297,7 +302,9 @@ h5{
     color: white;
     
 }
-
+.fticon{
+    width: 70vw;
+}
 
 
    
