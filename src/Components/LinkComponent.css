@@ -71,7 +71,6 @@
         flex-direction: column;
         justify-content: space-between;
         
-        
     }
     .link__main_border{
         border-bottom: 0px;
@@ -93,6 +92,7 @@
        width: 100vw;
        font-size: 25px;
        padding: 10px 0px;
+       
        
     }
     .link__navlinks{
