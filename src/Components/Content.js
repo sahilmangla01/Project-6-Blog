@@ -73,7 +73,7 @@ const Content = ()=>{
                         <div className="userName2">
                             <h5>Written By</h5>
                             <div>Sahil Mangla</div>
-                            <h5>Aug 01, 2023</h5>
+                            <h5>Aug 01, 2023 . 10 min before</h5>
                         </div>
                     </div>
                 <button onClick={()=>val === 0 ?Navi("/") :Navi("/"+back )} className="back">Back</button>
@@ -83,6 +83,7 @@ const Content = ()=>{
         </div>
             
            <div className="footer">
+           
                 <div className="content__footer">
                     <h1>More From The Siren</h1>
                     <div className="footer__elements">
@@ -94,7 +95,7 @@ const Content = ()=>{
                                 
                                 <NavLink className="content__heading" state={{id:e.id , title: e.title}} to={"/content"}><div className="content__Title">{e.title}</div></NavLink>
                                 <div className="content__profile">
-                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=5648d0b6-d5e3-4f90-a1b0-6156c92a7695&api_key=CometServer1&access_token=1690817370_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_ad3f691f7a3c36763f0dae78c710dd2898b66c33" alt="profile"/>
+                                <img className="profileIcon iconft" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsINewnG4nrTvE5ndRNUzUrRU5dTqWknJGzQ&usqp=CAU" alt="profile"/>
                                     <div className="userName"><div>Sahil Mangla</div>
                                      <h5>Aug 01, 2023</h5>
                                 </div>
