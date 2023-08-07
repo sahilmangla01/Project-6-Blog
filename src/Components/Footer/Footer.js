@@ -33,7 +33,7 @@ const Footer = () => {
 
         <div className='BRP'>
         <div className='FooterBRP'>
-        <h2>Blog <img  onClick={()=>settogle(!togle)} className={!togle?'addBtn ftimg':"addBtnrt ftimg"} src={add} alt='add'/></h2>
+        <h2>Blog <img  onClick={()=>settogle(!togle)} className={!togle?'addBtnrt ':"addBtn "} src={add} alt='add'/></h2>
             
             <div className={!togle ?"show" : "hide"}>
             <div onClick={()=>Navi('/bollywood')}>Bollywood</div>
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='FooterBRP'>
-            <h2 >Resources<img onClick={()=>settogle2(!togle2)} img className={!togle2?'addBtn ftimg':"addBtnrt ftimg"} src={add} alt='add'/></h2>
+            <h2 >Resources<img onClick={()=>settogle2(!togle2)} img className={!togle2?'addBtnrt ':"addBtn "} src={add} alt='add'/></h2>
             <div className={!togle2 ?"show" : "hide"}>
             <div>Help Center</div>
             <div>Careers</div>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='FooterBRP'>
-        <h2 >Partners <img onClick={()=>settogle3(!togle3)} className={!togle3?'addBtn ftimg':"addBtnrt ftimg"} src={add} alt='add'/></h2>
+        <h2 >Partners <img onClick={()=>settogle3(!togle3)} className={!togle3?'addBtnrt ':"addBtn "} src={add} alt='add'/></h2>
              <div className={!togle3 ?"show" : "hide"}>
             <div>Become a Partner</div>
             <div>Step to Integrate</div>
