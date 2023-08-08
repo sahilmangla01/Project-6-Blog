@@ -7,7 +7,7 @@ import "../Home.css"
 
 const RandomComponent = () => {
     const [content] = useContext(Store)
-    const random = Math.floor(Math.random()*content.length)
+    const random = Math.floor(Math.random()*content.length)+1
     return(
 
         <> 
