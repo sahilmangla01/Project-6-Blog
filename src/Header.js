@@ -11,10 +11,10 @@ const Header = () => {
         <span className="the">The </span> 
         <span className='siren'>Siren</span></div>
       
+        <LinkComponent/>
         </div><hr/>
       
        
-        <LinkComponent/>
     </>
   )
 }

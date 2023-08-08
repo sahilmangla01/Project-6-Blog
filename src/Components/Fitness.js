@@ -79,7 +79,7 @@ const Fitness = ()=>{
                     }
                 
                     {
-                        contextData.filter(e=>e.cat==="Fitness").slice(11).map(e=>{
+                        contextData.filter(e=>e.cat==="Fitness").slice(11,15).map(e=>{
                             return(
                                 <div key={e.id} className="TP__Elements">
                                    <NavLink state={{id:e.id , title: e.title}} to={"/content"}> <img className="TP__images" src={e.image} alt="topPost"/></NavLink>
