@@ -22,7 +22,7 @@ const Footer = () => {
         <span className="the">The </span> 
         <span className='siren'>Siren</span></div>
 
-        <div className='FooterHead'>The Siren is a Vlog website where people can share their views and view other people thoughts.</div>
+        <div className='FooterHead'>The Siren is a Blog website where people can share their views and view other people thoughts.</div>
         <div className='fticon'>
             <img className='ftimg' src={ln} alt='linkdn'/>
             <img className='ftimg' src={twitter} alt='twitter'/>
