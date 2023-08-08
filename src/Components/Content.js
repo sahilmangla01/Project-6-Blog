@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { useLocation } from "react-router-dom";
 import { Store } from "./DataStore";
 import { useContext } from "react";
@@ -17,6 +17,10 @@ const Content = ()=>{
     const val = useLocation().state.val
     console.log(val)
     const back = content[id-1].cat.toLowerCase()
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+      }, []);
     
     return(
         <> 

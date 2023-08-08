@@ -1,4 +1,4 @@
-import React,{useContext, useState} from "react";
+import React,{useContext, useState,useEffect} from "react";
 import { Store } from "./DataStore";
 import "./style.css"
 import { NavLink } from "react-router-dom";
@@ -11,6 +11,10 @@ const Technology  = ()=>{
     const loadMoreHandler= ()=>{
         setLoadMore(!loadMore);
     }
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+      }, []);
     
     return(
         

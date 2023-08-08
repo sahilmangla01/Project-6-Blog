@@ -1,4 +1,4 @@
-import React,{useContext,useState} from "react";
+import React,{useContext,useState,useEffect} from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
 import Header from "../Header";
@@ -11,6 +11,10 @@ const Fitness = ()=>{
     const loadMoreHandler= ()=>{
         setLoadMore(!loadMore);
     }
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+      }, []);
     
     return(
         <><Header/>

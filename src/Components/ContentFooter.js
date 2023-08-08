@@ -12,6 +12,7 @@ const ContentFooter = (props) => {
     
    
     const random = Math.floor(Math.random()*10)
+    
      
     
   return (

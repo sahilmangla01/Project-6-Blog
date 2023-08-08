@@ -1,4 +1,4 @@
-import React,{useContext} from "react";
+import React,{useContext , useEffect} from "react";
 import "./Home.css"
 import { Store } from "./DataStore";
 import Header from "../Header";
@@ -16,7 +16,10 @@ const Home = ()=>{
     const random2= Math.floor(Math.random()*homeData.length)
     const random3= Math.floor(Math.random()*homeData.length)
     
-
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+      }, []);
 
     return( 
         <>

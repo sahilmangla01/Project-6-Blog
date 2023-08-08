@@ -1,4 +1,4 @@
-import { useContext ,useState} from "react";
+import { useContext ,useState,useEffect} from "react";
 import React from "react";
 import { Store } from "./DataStore";
 import { NavLink } from "react-router-dom";
@@ -13,6 +13,10 @@ const Food = ()=>{
         setLoadMore(!loadMore);
     }
     
+    useEffect(() => {
+    
+        window.scrollTo(0, 0);
+      }, []);
     return(
 
         <><Header/>
